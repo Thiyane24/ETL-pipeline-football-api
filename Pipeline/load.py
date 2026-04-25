@@ -50,4 +50,5 @@ def load():
 
 
     result = conn.execute("SELECT * FROM TopScorers").fetchdf()
+    result.to_csv("Data/topscorers.csv", index=False)
     print(result)
