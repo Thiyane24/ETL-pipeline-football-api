@@ -6,8 +6,16 @@ from datetime import datetime
 
 
 print(f"Starting Pipeline at {datetime.now()}")
+print('\n')
+
 
 extract()
+print('\n')
+
 transform()
+print('\n')
+
 load()
+print('\n')
+
 print("Pipeline executed...")

@@ -19,5 +19,9 @@ def transform():
    df['minutes'] = df['minutes'].astype(int)
 
    df.to_parquet(f"Data/Silver/topscorers_clean.parquet", index= False)
+   print('\n')
+
    print("Saved to Silver")
+   print('\n')
+
    print(df.dtypes)
