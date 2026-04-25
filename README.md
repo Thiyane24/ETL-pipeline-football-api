@@ -6,7 +6,7 @@ An end-to-end data engineering pipeline that extracts Premier League top scorer 
 
 ## Architecture
 
-![ETL Pipeline Architecture](API_pipeline_architecture.png)
+![ETL Pipeline Architecture](API%20pipeline%20architecture.png)
 
 ---
 
